@@ -1,0 +1,8 @@
+.list-inline li {
+  float: left;
+  margin-left: 3px;
+}
+
+::ng-deep mat-paginator mat-form-field {
+  width: 84px !important;
+}

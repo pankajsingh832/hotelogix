@@ -1,0 +1,4 @@
+.nav-item:has(a.active), .nav-item a.active{
+  background: #3b8855;
+  color: white;
+}

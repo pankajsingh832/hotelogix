@@ -12,40 +12,43 @@ import {HttpClientModule} from "@angular/common/http";
 import {ApiService} from "../../services/api.service";
 import {AuthServiceService} from "../../services/auth-service.service";
 import {MatIconModule} from "@angular/material/icon";
-import { MatDatepickerModule} from "@angular/material/datepicker";
+import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatNativeDateModule} from "@angular/material/core";
+import {MatSelectModule} from "@angular/material/select";
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    MatButtonModule,
-    MatCardModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatIconModule,
-    MatInputModule,
-    MatFormFieldModule, MatTableModule, MatSortModule, MatPaginatorModule,
-    HttpClientModule,
-    MatDatepickerModule,
-    MatNativeDateModule
-  ],
-  exports: [
-    CommonModule,
-    MatButtonModule,
-    MatIconModule,
-    MatCardModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    MatFormFieldModule,
-    MatTableModule, MatSortModule, MatPaginatorModule,
-    HttpClientModule,
-    MatDatepickerModule,
-    MatNativeDateModule
-  ],
-  providers: [ApiService, AuthServiceService]
+    declarations: [],
+    imports: [
+        CommonModule,
+        MatButtonModule,
+        MatCardModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatIconModule,
+        MatInputModule,
+        MatFormFieldModule, MatTableModule, MatSortModule, MatPaginatorModule,
+        HttpClientModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatSelectModule,
+    ],
+    exports: [
+        CommonModule,
+        MatButtonModule,
+        MatIconModule,
+        MatCardModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        MatFormFieldModule,
+        MatTableModule, MatSortModule, MatPaginatorModule,
+        HttpClientModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatSelectModule,
+    ],
+    providers: [ApiService, AuthServiceService]
 })
 export class SharedModule {
 }

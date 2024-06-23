@@ -21,8 +21,7 @@ import {MatSelectModule} from "@angular/material/select";
         CommonModule,
         ManagerRoutingModule,
         SharedModule,
-        MatIconModule,
-        MatSelectModule,
+
     ]
 })
 export class ManagerModule {
